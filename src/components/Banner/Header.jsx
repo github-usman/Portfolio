@@ -51,7 +51,7 @@ const Container = styled.div`
   justify-content: space-between;
   max-width: 1280px;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto ;
   padding: 1.5rem 0;
   @media (max-width: 763px) {
     width: 90%;
