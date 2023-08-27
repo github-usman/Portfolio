@@ -4,47 +4,83 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { TbBrandLeetcode } from "react-icons/tb";
 import usman_profile from "../images/usman_ali_ansari.png";
+import { Slide } from "react-awesome-reveal";
 const ProfComponent = () => {
   return (
-    <Container>
-      <Text>
-        <h4>
-          Hello! <span>I am</span>
-        </h4>
-        <h1 className="green">Usman Ali Ansari</h1>
-        <h3>full stack developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum itaque,
-          assumenda, ipsam modi, debitis possimus libero alias corporis deserunt
-          architecto optio hic officiis laboriosam repudiandae. Quas aliquid
-          repe.
-        </p>
-        <button>Let's talk</button>
-        <Social>
-          <p>Check out my</p>
-          <div className="social-icons">
-            <span>
-              <a href="/">
-                <AiOutlineGithub />
-              </a>
-            </span>
-            <span>
-              <a href="/">
-                <AiOutlineLinkedin />
-              </a>
-            </span>
-            <span>
-              <a href="/">
-                <TbBrandLeetcode />
-              </a>
-            </span>
-          </div>
-        </Social>
-       
-      </Text>
-      <Profile>
-        <img src={usman_profile} alt="usman" />
-      </Profile>
+    <Container id="home">
+      <Slide direction="left" triggerOnce="true">
+        <Text>
+          <h4>
+            Hello! <span>I am</span>
+          </h4>
+          <h1 className="green">Usman Ali Ansari</h1>
+          <h3>full stack developer</h3>
+          <p>
+             👨🏻‍💻
+            <p>
+            A freshly graduated Computer
+            Science & Engineering enthusiast from IET Agra's class of 2023. a
+            passionate competitive programmer with a profound interest in
+            software engineering. 
+              </p>
+              💡
+            <p>I'm deeply passionate about algorithmic
+            problem solving with a moderate foundation in data structures and
+            algorithms, which I've cultivated over 2 years of competitive
+            programming. My journey in competitive programming has been
+            rewarding; with a 3rd Rank at IET Agra and 43 Global Rank on
+            Codechef in 2022. 
+            </p>
+            💼 
+            <p> My collection of projects speaks for my
+            dedication and passion. I'm ready to learn more, embrace new
+            opportunities, and keep growing in the world of technology.Each
+            project has taught me something new. 
+            </p> 
+            <br />
+            <p>I have laid a strong foundation in essential languages like HTML, CSS, and JavaScript,
+            which form the bedrock of web development.I have eagerly delved into
+            React.js, where I'm honing my skills in crafting dynamic and
+            interactive front-end designs. This framework has ignited my passion
+            for shaping engaging user experiences and harnessing the power of
+            innovation.
+            </p>
+            <br />
+            <p>But it's not just about what you see on the screen.
+            I've also worked on projects that involve the behind-the-scenes
+            stuff. I've used MongoDB, Express.js, and Node.js to build strong
+            foundations for websites. It's like creating the engine that makes
+            everything run smoothly. Thank You !
+            </p>
+          </p>
+          <button> <a href="https://www.linkedin.com/in/u-s-m-a-n/"  target="_blank" rel="noreferrer">Let's talk</a></button>
+          <Social>
+            <p>Check out my</p>
+            <div className="social-icons">
+              <span>
+                <a href="https://github.com/github-usman" target="_blank" rel="noreferrer">
+                  <AiOutlineGithub />
+                </a>
+              </span>
+              <span>
+                <a href="https://www.linkedin.com/in/u-s-m-a-n/" target="_blank" rel="noreferrer">
+                  <AiOutlineLinkedin />
+                </a>
+              </span>
+              <span>
+                <a href="https://leetcode.com/u_s_m_a_n/" target="_blank" rel="noreferrer">
+                  <TbBrandLeetcode />
+                </a>
+              </span>
+            </div>
+          </Social>
+        </Text>
+      </Slide>
+      <Slide direction="right" triggerOnce="true">
+        <Profile>
+          <img src={usman_profile} alt="usman" />
+        </Profile>
+      </Slide>
     </Container>
   );
 };
@@ -55,7 +91,7 @@ const Container = styled.div`
   display: flex;
   gap: 2rem;
   padding-top: 3rem;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
@@ -63,7 +99,6 @@ const Container = styled.div`
     width: 90%;
   }
   @media (max-width: 740px) {
-  
     flex-direction: column;
   }
 `;
@@ -88,7 +123,10 @@ const Text = styled.div`
     text-transform: capitalize;
   }
   p {
-    font-weight: 300;
+    font-weight: 400;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
   }
   button {
     padding: 0.7rem 2rem;
@@ -99,10 +137,18 @@ const Text = styled.div`
     color: #fff;
     font-weight: 500;
     filter: drop-shadow(5px 5px 15px #01be9551);
+    
     border-radius: 3px;
+    a{
+      text-decoration:none;
+      color:black;
+      font-weight:400;
+    }
     &:hover {
-      filter: drop-shadow(5px 5px 10px #a3c5be90);
+      margin-top: 2.9rem;
+      filter: drop-shadow(0px 2px 10px #adc5c0c8);
       background-color: #547262;
+      border:solid 0.001rem #fff;
     }
   }
 `;
@@ -162,7 +208,7 @@ const Profile = styled.div`
       width: 10rem;
     }
     @media (max-width: 740px) {
-      width: 15rem;
+      width: 90%;
     }
   }
   &:hover img {

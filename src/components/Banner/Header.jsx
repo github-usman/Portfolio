@@ -3,12 +3,14 @@ import { styled } from "styled-components";
 import { FaLaptopHouse } from "react-icons/fa";
 
 const Header = () => {
-  const [bar, setBar] = useState(false);
 
+  const [bar, setBar] = useState(false);
+ 
   const humBergerClick=()=>{
     setBar(!bar);
   }
   return (
+    
     <Container bar={bar}>
       <Logo>
         <span className="green">
@@ -18,19 +20,19 @@ const Header = () => {
       </Logo>
       <Nav bar={bar}>
         <span>
-          <a href="/">Home</a>
+          <a href="#home">Home</a>
         </span>
         <span>
-          <a href="/">Skills</a>
+          <a href="#skills">Skills</a>
         </span>
         <span>
-          <a href="/">Projects</a>
+          <a href="#projects">Projects</a>
         </span>
         <span>
-          <a href="/">Certificates</a>
+          <a href="#certificates">Certificates</a>
         </span>
         <span>
-          <a href="/">Contact Me</a>
+          <a href="#footer">Contact Me</a>
         </span>
       </Nav>
       <div
@@ -72,7 +74,7 @@ const Container = styled.div`
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: ${(props) => (props.bar ? "transparent" : "#fff")};
+        background-color: ${(props) => (props.bar? "transparent" : "#fff")};
         &:before,
         &:after {
           content: "";
@@ -83,12 +85,12 @@ const Container = styled.div`
         }
         &:before {
           transform: ${(props) =>
-            props.bar ? "rotate(45deg)" : "translateY(10px)"};
+            props.bar? "rotate(45deg)" : "translateY(10px)"};
           transition: all 300ms ease-in-out;
         }
         &:after {
           transform: ${(props) =>
-            props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
+            props.bar? "rotate(-45deg)" : "translateY(-10px)"};
           transition: all 300ms ease-in-out;
         }
       }
