@@ -6,8 +6,13 @@ const Header = () => {
 
   const [bar, setBar] = useState(false);
  
-  const humBergerClick=()=>{
+  const humBergerSet=()=>{
     setBar(!bar);
+  }
+
+
+  const humBergerUnset=()=>{
+    setBar(bar === false);
   }
   return (
     
@@ -20,23 +25,23 @@ const Header = () => {
       </Logo>
       <Nav bar={bar}>
         <span>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={humBergerUnset}>Home</a>
         </span>
         <span>
-          <a href="#skills">Skills</a>
+          <a href="#skills"  onClick={humBergerUnset}>Skills</a>
         </span>
         <span>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={humBergerUnset}>Projects</a>
         </span>
         <span>
-          <a href="#certificates">Certificates</a>
+          <a href="#certificates" onClick={humBergerUnset}>Certificates</a>
         </span>
         <span>
-          <a href="#footer">Contact Me</a>
+          <a href="#footer" onClick={humBergerUnset}>Contact Me</a>
         </span>
       </Nav>
       <div
-        onClick={humBergerClick}
+        onClick={humBergerSet}
         className="bars"
       >
         <div className="bar"></div>
