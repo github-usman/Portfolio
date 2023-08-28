@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="address">
             <h1>Address:</h1>
 
-            <Slide direction="left" triggerOnce="true" > <p>khandari, Agra Uttar pradesh</p> </Slide>
+            <Slide direction="left" triggerOnce="true" > <p>Uttar Pradesh, INDIA</p> </Slide>
         </div>
         <div className="links">
             <h1>Contact me:</h1>
@@ -39,9 +39,9 @@ const Footer = () => {
             <h1>Check my profiles</h1>
             
             <div className="icons">
-                <Zoom><span><a href="/"><AiFillGithub/></a></span></Zoom>
-                <Zoom><span><a href="/"><AiFillLinkedin/></a></span></Zoom>
-                <Zoom><span><a href="/"><TbBrandLeetcode/></a></span></Zoom>
+                <Zoom><span><a href="https://github.com/github-usman" target="_blank" rel="noreferrer"><AiFillGithub/></a></span></Zoom>
+                <Zoom><span><a href="https://www.linkedin.com/in/u-s-m-a-n/" target="_blank" rel="noreferrer"><AiFillLinkedin/></a></span></Zoom>
+                <Zoom><span><a href="https://www.linkedin.com/in/u-s-m-a-n/" target="_blank" rel="noreferrer"><TbBrandLeetcode/></a></span></Zoom>
             </div>
            
         </div>
