@@ -50,7 +50,7 @@ const Footer = styled.div`
         cursor: pointer;
         @media(max-width: 538px){
             width: 100%;
-            height:18rem;
+            height:10rem;
         }
     }
 

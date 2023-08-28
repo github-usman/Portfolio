@@ -6,8 +6,8 @@ import {Zoom} from "react-awesome-reveal"
 const Projects = () => {
   return <Container id="projects">
     <Zoom>
-    <h1>Recent <span className="green">Projects</span></h1>
-    <p>In my projects, I've tackled various challenges and learned immensely from hands-on experience. I've honed skills in coding, problem-solving, and collaborating with teams. These projects reflect my ability to turn ideas into functional solutions and my dedication to continuous learning. I'm excited to contribute my skills and enthusiasm to future projects that push the boundaries of innovation.</p>
+    <h1>Real-time Live <span className="green">Projects</span></h1>
+    <p>I've learned a lot from tackling different challenges in my projects - coding, solving problems, and working with teams. I'm eager to use these skills for exciting new projects that push innovation further.</p>
     </Zoom>
     <Slide>
         <SliderComp/>

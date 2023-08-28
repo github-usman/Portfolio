@@ -11,43 +11,37 @@ let clients = [
         name : "Python_with_Data_Science",
         certi_name : " Python with Data Science",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141176/certificate%20images/Python_with_Data_Science_jmc10j.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
     {
         name : "Intro_network",
         certi_name : "Introduction to Networks",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141145/certificate%20images/USMANALI_ANSARI-NF_SKL21_CCNA_M1-certificate_1__page-0001_lpcwzb.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
     {
         name : "Internet_Of_Things",
         certi_name : "Internet of Things(IoT)- MSME",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141132/certificate%20images/IoT_Agra_4_Aug-35_page-0001_p0lngb.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
     {
         name : "Algorithmic_toolbox",
         certi_name : "Data Structure And Algorithms",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141127/certificate%20images/DAA_usmanCertificate_page-0001_n26e4j.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
     {
         name : "Complete_webdevelopment_bootcamp",
         certi_name : "Complete Web Development",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141173/certificate%20images/The_Complete_2022_Web_development_Bootcamp_ajbezl.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
     {
         name : "career_skills",
         certi_name : "Career Skills TCS",
         img_url : "https://res.cloudinary.com/dwz20s6wt/image/upload/v1693141120/certificate%20images/career_Skills_By_TCS_page-0001_lslf3l.jpg",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
    
     

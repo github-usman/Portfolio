@@ -2,19 +2,21 @@ import React from "react";
 import { styled } from "styled-components";
 
 const Project = (props) => {
-    const {img,disc}=props.item;
+    const {img,disc,title,link,img_title}=props.item;
   return (
     <Container className="project">
       <img
         src={img}
-        alt="stock_near_you"
+        alt={img_title}
       />
       <div className="disc">
-        <h1>Description</h1>
+      
+        <h1>{title}</h1>
+        <a href={link}>
         <p>
           {disc}
-          <a href="/">demo</a>
         </p>
+        </a>
       </div>
     </Container>
   );
@@ -46,18 +48,24 @@ const Container = styled.div`
     text-align: left;
     padding: 0.5rem;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-   
-    h1 {
-      font-size: 1rem;
-    }
-    p {
-      width: 90%;
-      font-size: 0.8rem;
-      a {
-        margin-left: 0.4rem;
-        color: red;
+    a {
+      h1 {
+        font-size: 1rem;      
+        color:#fff;     
       }
-    }
+    
+         text-decoration:none;
+            p {
+          width: 90%;
+          font-size: 0.8rem;
+          color:#ffffff;
+          opacity:0.8;
+          background-color:#6d3636ab;
+              padding:0.2rem 1.5rem;
+           }
+         
+      }
+    
     transition: all 400ms ease-in-out;
   }
   &:hover > img {
