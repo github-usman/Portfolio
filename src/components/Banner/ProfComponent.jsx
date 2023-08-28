@@ -18,10 +18,7 @@ const ProfComponent = () => {
           <p>
              👨🏻‍💻
             <p>
-            A freshly graduated Computer
-            Science & Engineering enthusiast from IET Agra's class of 2023. a
-            passionate competitive programmer with a profound interest in
-            software engineering. 
+            A freshly graduated Computer Science & Engineering enthusiast with a  BE/B.Tech degree from IET Agra's class of 2023. A passionate competitive programmer with a profound interest in software engineering.
               </p>
               💡
             <p>I'm deeply passionate about algorithmic
