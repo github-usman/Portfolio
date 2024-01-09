@@ -13,42 +13,45 @@ const ProfComponent = () => {
           <h4>
             Hello! <span>I am</span>
           </h4>
-          <h1 className="green">Usman Ali Ansari</h1>
+          {/* <h1 className="green">Usman Ali Ansari</h1> */}
           <h3>full stack developer</h3>
           <p>
              👨🏻‍💻
             <p>
-            A freshly graduated Computer Science & Engineering enthusiast with a  BE/B.Tech degree from IET Agra's class of 2023. A passionate competitive programmer with a profound interest in software engineering.
+            A freshly graduated Computer Science & Engineering enthusiast with a  BE/B.Tech degree from IET Agra's class of 2023. 
               </p>
               💡
-            <p>I'm deeply passionate about algorithmic
-            problem solving with a moderate foundation in data structures and
-            algorithms, which I've cultivated over 2 years of competitive
-            programming. My journey in competitive programming has been
-            rewarding; with a 3rd Rank at IET Agra and 43 Global Rank on
-            Codechef in 2022. 
+            <p style={{display:"inline"}}>I'm deeply passionate about algorithmic problem solving with a moderate foundation in data structures and algorithms, which I've cultivated over 2 years of competitive programming. My journey in competitive programming has been rewarding; with a 2<sup>nd</sup> Rank at IET Agra and 43 Global Rank on Codechef in 2022.
             </p>
             💼 
             <p> My collection of projects speaks for my
-            dedication and passion. I'm ready to learn more, embrace new
-            opportunities, and keep growing in the world of technology.Each
+            dedication and passion.Each
             project has taught me something new. 
             </p> 
             <br />
-            <p>I have laid a strong foundation in essential languages like HTML, CSS, and JavaScript,
-            which form the bedrock of web development.I have eagerly delved into
-            React.js, where I'm honing my skills in crafting dynamic and
-            interactive front-end designs. This framework has ignited my passion
-            for shaping engaging user experiences and harnessing the power of
-            innovation.
+            <p>I have laid a strong foundation in essential languages like HTML, CSS, and JavaScript, which form the bedrock of web development.I have eagerly delved into React.js.
             </p>
             <br />
-            <p>But it's not just about what you see on the screen.
-            I've also worked on projects that involve the behind-the-scenes
-            stuff. I've used MongoDB, Express.js, and Node.js to build strong
-            foundations for websites. It's like creating the engine that makes
-            everything run smoothly. Thank You !
+            <p> I've also worked on projects that involve behind-the-scenes stuff. I've used MongoDB, Express.js, and Node.js to build strong foundations for websites. 
             </p>
+            <br />
+            <h4 style={{textAlign:"right"}}>Thank You !</h4>
+
+
+            <div>
+           <h2>Pearlthoughts | Paid Internship | Remote</h2> <br />
+           <h3>Project Name : Schedula-IVR</h3>
+            <p style={{display:"inline"}}> 03/10/2023 - 03/12/2023 <b >Software Developer</b></p> 
+            <p> I worked on TypeScript, Nest.js, React.js, MySQL, IVR (Exotel-server), Azure
+            services APIM, and GitHub.</p><br />
+            <p style={{display:"inline"}}>07/09/2023 - 03/10/2023 <b> Front-End Developer </b></p>
+            <p>
+             Worked on frontend development using React.js, Next.js, TypeScript,
+            Material-UI, Tailwind CSS, Wireframing, docker, APIs and GitHub.
+            </p>
+            </div>
+
+
           </p>
           <button> <a href="https://www.linkedin.com/in/u-s-m-a-n/"  target="_blank" rel="noreferrer">Let's talk</a></button>
           <Social>
@@ -205,7 +208,7 @@ const Profile = styled.div`
       width: 10rem;
     }
     @media (max-width: 740px) {
-      width: 90%;
+      width: 50%;
     }
   }
   &:hover img {
